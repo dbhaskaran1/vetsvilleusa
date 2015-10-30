@@ -21,6 +21,11 @@ def index():
     else:
         return render_template('index.html')
 
+@app.route('/robots.txt')
+@app.route('/sitemap.xml')
+def static_from_root():
+    return send_from_directory(app.static_folder, request.path[1:])
+
 
 def send_email(msg='msg', recipient='vetsvilleusa@gmail.com', sender='somesender@gmail.com'):
     sender='vetsvilleusa@gmail.com'
