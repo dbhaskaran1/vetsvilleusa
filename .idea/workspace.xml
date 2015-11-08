@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a50f50c0-1ac7-449b-8059-6caa97533b7b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/footer.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/footer-distributed-with-address-and-phones.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/footer.css" afterPath="$PROJECT_DIR$/static/css/footer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <ignored path="vetsvilleusa.iws" />
@@ -34,10 +32,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1968162">
-              <caret line="232" column="35" selection-start-line="232" selection-start-column="35" selection-end-line="232" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.95079595">
+              <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
               <folding>
-                <element signature="e#10266#10336#0" expanded="false" />
+                <element signature="e#11381#11451#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -46,8 +44,8 @@
       <file leaf-file-name="footer.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/footer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.02">
-              <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+            <state vertical-scroll-proportion="-11.22">
+              <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -68,7 +66,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5">
+            <state vertical-scroll-proportion="-195.16">
               <caret line="574" column="17" selection-start-line="574" selection-start-column="17" selection-end-line="574" selection-end-column="17" />
               <folding />
             </state>
@@ -78,8 +76,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../tf-free-no.3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.347826">
-              <caret line="559" column="0" selection-start-line="559" selection-start-column="0" selection-end-line="559" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.304348">
+              <caret line="285" column="34" selection-start-line="285" selection-start-column="34" selection-end-line="285" selection-end-column="34" />
               <folding>
                 <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -87,7 +85,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="sms-company" pinned="false" current-in-tab="false">
+        <entry file="https://www.textmagic.com/sms-company/">
+          <provider selected="true" editor-type-id="httpFileEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,6 +113,9 @@
         <option value="$PROJECT_DIR$/vetsvilleusa.py" />
         <option value="$PROJECT_DIR$/static/css/footer-distributed-with-address-and-phones.css" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/textmagic.html" />
+        <option value="www.textmagic.com/sms-company/" />
+        <option value="$PROJECT_DIR$/templates/header-fixed.html" />
         <option value="$PROJECT_DIR$/static/css/footer.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
@@ -263,6 +278,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -272,6 +288,13 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://www.textmagic.com/sms-company/" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/" />
+      <recent name="$PROJECT_DIR$/static/css/" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/static/img" />
@@ -618,7 +641,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#10266#10336#0" expanded="false" />
+            <element signature="e#11381#11451#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,7 +669,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#10266#10336#0" expanded="false" />
+            <element signature="e#11381#11451#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -676,7 +699,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#10266#10336#0" expanded="false" />
+            <element signature="e#11381#11451#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -706,7 +729,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="260" column="34" selection-start-line="260" selection-start-column="34" selection-end-line="260" selection-end-column="34" />
           <folding>
-            <element signature="e#10266#10336#0" expanded="false" />
+            <element signature="e#11381#11451#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -736,7 +759,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
-            <element signature="e#10266#10336#0" expanded="false" />
+            <element signature="e#11381#11451#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -763,7 +786,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
-            <element signature="e#10266#10336#0" expanded="false" />
+            <element signature="e#11381#11451#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -790,7 +813,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding>
-            <element signature="e#10266#10336#0" expanded="false" />
+            <element signature="e#11381#11451#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -817,7 +840,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="188" column="83" selection-start-line="188" selection-start-column="83" selection-end-line="188" selection-end-column="83" />
           <folding>
-            <element signature="e#10266#10336#0" expanded="false" />
+            <element signature="e#11381#11451#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -837,7 +860,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="183" column="73" selection-start-line="183" selection-start-column="73" selection-end-line="183" selection-end-column="73" />
           <folding>
-            <element signature="e#10266#10336#0" expanded="false" />
+            <element signature="e#11381#11451#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -853,6 +876,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-32.586143">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -877,16 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tf-free-no.3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.347826">
-          <caret line="559" column="0" selection-start-line="559" selection-start-column="0" selection-end-line="559" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/owl.carousel.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -905,28 +919,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.02">
-          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-          <folding />
-        </state>
+    <entry file="https://www.textmagic.com/sms-company/">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
+        <state vertical-scroll-proportion="-195.16">
           <caret line="574" column="17" selection-start-line="574" selection-start-column="17" selection-end-line="574" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.22">
+          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tf-free-no.3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.304348">
+          <caret line="285" column="34" selection-start-line="285" selection-start-column="34" selection-end-line="285" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1968162">
-          <caret line="232" column="35" selection-start-line="232" selection-start-column="35" selection-end-line="232" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.95079595">
+          <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
           <folding>
-            <element signature="e#10266#10336#0" expanded="false" />
+            <element signature="e#11381#11451#0" expanded="false" />
           </folding>
         </state>
       </provider>

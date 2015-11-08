@@ -120,6 +120,11 @@
 	text-decoration: none;;
 }
 
+.footer-distributed .footer-center p a:hover{
+	color:  #5383dd;
+	text-decoration: underline;;
+}
+
 
 /* Footer Right */
 
