@@ -138,11 +138,20 @@ font-weight: 900;
 }
 #tf-home p.lead{
 	color: #e3e3e3;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#tf-home p.shadow{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#tf-home h1.shadow{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .content{
 	position: relative;
-	padding: 20% 0 0;
+	padding: 12% 0 0;
 }
 
 .color{
