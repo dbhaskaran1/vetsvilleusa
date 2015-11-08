@@ -565,7 +565,21 @@ nav#footer p{
 	color: #8c8c8c;
 	transition: all 0.5s;
 }
-#footer i.fa:hover{
+#footer i.fa:hover {
 	background: #FCAC45;
 	border-color: #FCAC45;
 	color: #ffffff;
+}
+a.link {
+	align: left;
+	color: #5383d3;
+	padding: 10px
+}
+a.link hover {
+	color: #5383d3;
+
+}
+p.link {
+	align: right;
+	color: #5383d3;
+}
