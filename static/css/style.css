@@ -574,21 +574,28 @@ nav#footer p{
 	color: #8c8c8c;
 	transition: all 0.5s;
 }
-#footer i.fa:hover {
-	background: #FCAC45;
+i.fa:hover {
 	border-color: #FCAC45;
-	color: #ffffff;
+	color: #FCAC45;
 }
+
 a.link {
 	align: left;
 	color: #5383d3;
 	padding: 3px
 }
-a.link hover {
-	color: #5383d3;
-
+a.link:hover {
+	color: #ffffff;
 }
 p.link {
 	align: right;
-	color: #5383d3;
+	color: #ffffff;
+}
+p.heading {
+	align: right;
+	color: #FCAC45;
+}
+a.phonenumber {
+	color: #000000;
+	font-weight: 900;
 }
