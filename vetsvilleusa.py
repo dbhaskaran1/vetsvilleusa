@@ -15,7 +15,8 @@ MAIL_PASSWORD = 'Decatur2015'
 @app.route("/index.html", methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
-        msg = request.form['message'] + 'from [' + request.form['phoneNo'] + request.form['emailID'] + request.form['fullName'] + ']'
+        msg = request.form['message'] + ' from [' + request.form['phoneNo'] + request.form['emailID'] + request.form['fullName'] + ']'
+        msg = "Message [{}] from {}. Email id {} and phone no {}.".format(request.form['message'], request.form['fullName'], request.form['emailID'], request.form['phoneNo'])
         send_email(msg=msg)
         return render_template('index.html')
     else:
@@ -29,13 +30,13 @@ def static_from_root():
 
 def send_email(msg='msg', recipient='vetsvilleusa@gmail.com', sender='somesender@gmail.com'):
     sender='vetsvilleusa@gmail.com'
-    recipient='vetsvilleusa@gmail.com'
+    recipient=['vetsvilleusa@gmail.com', 'abc.keith48@gmail.com']
     server = smtplib.SMTP('smtp.gmail.com',587) #port 465 or 587
     server.ehlo()
     server.starttls()
     server.ehlo()
     server.login('vetsvilleusa@gmail.com','Decatur2015')
-    server.sendmail('vetsvilleusa@gmail.com','vetsvilleusa@gmail.com',msg)
+    server.sendmail('vetsvilleusa@gmail.com',recipient,msg)
     server.close()
 
 if __name__ == "__main__":
