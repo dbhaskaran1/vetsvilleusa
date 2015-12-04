@@ -68,7 +68,7 @@
             <li><a href="#tf-home" class="page-scroll">Home</a></li>
             <li><a href="#tf-about" class="page-scroll">About</a></li>
             <li><a href="#tf-services" class="page-scroll">Services</a></li>
-              <li><a href="#tf-housing" class="page-scroll">Housing</a></li>
+            <li><a href="#tf-housing" class="page-scroll">Housing</a></li>
             <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -81,19 +81,19 @@
         <div class="content">
             <div class="content">
                 <div id="clients" class="owl-carousel owl-theme">
-                    <div class="item col-md-3 col-lg-5">
+                    <div class="item col-sm-5 col-md-5 col-lg-5">
                         <img class="img-responsive" alt="US Army Logo" src="/static/img/USArmy.png">
                     </div>
-                    <div class="item col-md-3 col-lg-5">
+                    <div class="item col-sm-5 col-md-5 col-lg-5">
                         <img class="img-responsive" alt="US Navy Logo" src="/static/img/USNavy.png">
                     </div>
-                    <div class="item col-md-3 col-lg-5">
+                    <div class="item col-sm-5 col-md-5 col-lg-5">
                         <img class="img-responsive" alt="US Airforce Logo" src="/static/img/USAF.png">
                     </div>
-                    <div class="item col-md-3 col-lg-5">
+                    <div class="item col-sm-5 col-md-5 col-lg-5">
                         <img class="img-responsive" alt="US Airforce Logo" src="/static/img/USMarine.png">
                     </div>
-                    <div class="item col-md-3 col-lg-5">
+                    <div class="item col-sm-5 col-md-5 col-lg-5">
                         <img class="img-responsive" alt="US Airforce Logo" src="/static/img/USCg.png">
                     </div>
                 </div>
@@ -114,25 +114,24 @@
 
     <!-- About Us Page
     ==========================================-->
-    <div id="tf-about">
+    <div id="tf-about" class="text-center">
         <div class="container">
+            <div class="section-title center">
+                <h2>About <strong>us</strong></h2>
+                <div class="line">
+                </div>
+            </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-2 col-md-6 col-lg-6">
                     <img src="{{ url_for('static', filename='img/TeamofProfessionals.jpg') }}" alt="" class="img-responsive">
                     <div class='attribution'>
                         <a title="By The U.S. Army (Mine Detection) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AFlickr_-_The_U.S._Army_-_Mine_Detection.jpg"> </a>
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="about-text">
-                        <div class="section-title">
-                            <h4>About us</h4>
-                            <h2>Some words <strong>about us</strong></h2>
-                            <hr>
-                            <div class="clearfix"></div>
-                        </div>
-                        <p class="intro">We believe in our veterans. We believe they are capable of great things.</p>
-                        <p class="intro">Vetsville USA Decatur focuses on assisting our Veterans transition from the military to civilian life through vocational training. We also offer substance abuse counseling where necessary. Veterans feel comfortable at our training center because they are surrounded by Veterans that they can relate to.  We are a support center that will assist you back to civilian life. In addition, we will follow up after your training and counseling to make sure you are adjusting to a new life. You are always WELCOME at Vetsville USA .</p>
+                    <div class="about-text" align="left">
+                        <p class="intro" align="left">We believe in our veterans. We believe they are capable of great things.</p>
+                        <p class="intro" align="left">Vetsville USA Decatur focuses on assisting our Veterans transition from the military to civilian life through vocational training. We also offer substance abuse counseling where necessary. Veterans feel comfortable at our training center because they are surrounded by Veterans that they can relate to.  We are a support center that will assist you back to civilian life. In addition, we will follow up after your training and counseling to make sure you are adjusting to a new life. You are always WELCOME at Vetsville USA .</p>
                         <ul class="about-list">
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
@@ -203,7 +202,9 @@
     <div id="tf-housing" class="text-center">
         <div class="container">
             <div class="section-title center">
-                <h2>Our <strong>housing facilities</strong></h2>
+                <br>
+                <br>
+                <h2>Our <strong>housing</strong> facility</h2>
                 <div class="line">
                 </div>
             </div>
@@ -212,11 +213,13 @@
                     <hr>
                     <h3>Comfortable, clean and conveniently located housing.</h3>
                     <hr>
+                    <br>
                 </div>
                 <div class="col-md-6 col-sm-6 service">
                     <hr>
                     <h3>Provided hassle free and cost free to Veterans.</h3>
                     <hr>
+                    <br>
                 </div>
             </div>
             <div class="row">
@@ -235,7 +238,11 @@
             </div>
             <div class="row">
                 <div class="col-md-12 col-sm-6 service" align="center">
+                    <br>
                     <h3>Contact us for more details.</h3>
+                    <br>
+                    <br>
+                    <br>
                 </div>
             </div>
         </div>
