@@ -599,3 +599,48 @@ a.phonenumber {
 	color: #000000;
 	font-weight: 900;
 }
+
+.landing-belt {
+	color: #5383dd;
+	opacity: 0.9;
+	#filter: alpha(opacity=60); /* For IE8 and earlier */
+	border-radius: 30pt;
+}
+
+.home-banner h1 {
+  background-color:rgba(0, 0, 0, 0.498039);
+  color:#FFFFFF;
+  display:inline-block;
+  font-size:40px;
+  font-weight:500;
+  line-height:66px;
+  margin-bottom:5px;
+  padding:0 10px;
+  text-transform:uppercase;
+}
+
+.home-banner h3 {
+	background-color:rgba(0, 0, 0, 0.498039);
+	color:#FFFFFF;
+	display:inline-block;
+	font-size:1.3em;
+	font-weight:400;
+	line-height:40px;
+	padding:0 10px;
+	margin-bottom:5px;
+	text-transform:uppercase;
+}
+
+.home-banner p {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: "Lato",serif;
+	text-transform:uppercase;
+	line-height: 25px;
+	padding:0 10px;
+	margin-top: 5px;
+	border-radius: 30pt;
+}
