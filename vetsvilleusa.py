@@ -22,6 +22,10 @@ def index():
     else:
         return render_template('index.html')
 
+@app.route("/faqs.html", methods=['GET','POST'])
+def details():
+    return render_template('faqs.html')
+
 @app.route('/robots.txt')
 @app.route('/sitemap.xml')
 def static_from_root():
