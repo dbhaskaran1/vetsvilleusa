@@ -251,22 +251,70 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-2 col-md-6 col-lg-6">
-                    <img src="{{ url_for('static', filename='img/hydro4.jpg') }}" alt="" class="img-responsive">
-                    <div class='attribution'>
-                        <a title="By The U.S. Army (Mine Detection) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AFlickr_-_The_U.S._Army_-_Mine_Detection.jpg"> </a>
+                <div class="col-sm-2 col-md-5 col-lg-6">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                            <li data-target="#myCarousel" data-slide-to="6"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="{{ url_for('static', filename='img/freightfarm1.png') }}" alt="HydroPonics" height="50" width="100">
+                                <div class="carousel-caption">
+                                    <h3>Hydroponics</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="{{ url_for('static', filename='img/freightfarm5.jpg') }}" alt="FreightFarms" height="50" width="100">
+                                <div class="carousel-caption">
+                                    <h3>FarmFreight</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="{{ url_for('static', filename='img/freightfarm3.png') }}" alt="Hydroponics" height="50" width="100">
+                                <div class="carousel-caption">
+                                    <h3>Hydroponics</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="{{ url_for('static', filename='img/freightfarm4.jpg') }}" alt="Hydroponics" height="50" width="100">
+                                <div class="carousel-caption">
+                                    <h3>Hydroponics</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="{{ url_for('static', filename='img/hospitality.jpg') }}" alt="Hospitality" height="50" width="100">
+                                <div class="carousel-caption">
+                                    <h3>Hospitality</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="{{ url_for('static', filename='img/hospitality2.jpg') }}" alt="Hospitality" height="50" width="100">
+                                <div class="carousel-caption">
+                                    <h3>Hospitality</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="{{ url_for('static', filename='img/hospitality3.jpg') }}" alt="Hospitality" height="50" width="100">
+                                <div class="carousel-caption">
+                                    <h3>Hospitality</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-sm-3 col-md-4 col-lg-5">
                     <div class="about-text" align="left">
                         <p class="intro" align="left">VetsvilleUSA Living and Resource Center recruits men and women who are transitioning from active duty to civilian life when they are making critical civilian career decisions. More and more of these potential students are recognizing that they need to upgrade their education to compete in our tough job market. This is the ideal time for you to connect with mission-oriented students who are seeking a military-friendly school that accepts their military benefits.</p>
+                        <p class="intro" align="left">Our Veterans Living and Resort Centers provide housing solutions for veterans through our operation of formerly underperforming hotels. We want to build a bridge for your institution to be their choice as they are poised to begin training for their civilian career. VetsvilleUSA can connect you directly with a continuous stream of qualified veterans who are actively seeking the best way to leverage their benefits for the educational opportunity that is right for them.  </p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-11">
-                    <p class="intro" align="left">Our Veterans Living and Resort Centers provide housing solutions for veterans through our operation of formerly underperforming hotels. We want to build a bridge for your institution to be their choice as they are poised to begin training for their civilian career. VetsvilleUSA can connect you directly with a continuous stream of qualified veterans who are actively seeking the best way to leverage their benefits for the educational opportunity that is right for them.  </p>
-                </div>
             </div>
 
         </div>

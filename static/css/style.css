@@ -653,3 +653,9 @@ a.phonenumber {
 	margin-top: 5px;
 	border-radius: 30pt;
 }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 70%;
+	margin: auto;
+}
