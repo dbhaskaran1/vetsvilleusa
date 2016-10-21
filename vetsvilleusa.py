@@ -35,7 +35,7 @@ def static_from_root():
 
 def send_email(msg='msg', recipient='vetsvilleusa@gmail.com', sender='somesender@gmail.com'):
     sender='vetsvilleusa@gmail.com'
-    recipient=['vetsvilleusa@gmail.com', 'abc.keith48@gmail.com', 'bobfaver@gmail.com', 'deepak.bhaskaran@gmail.com']
+    recipient=['vetsvilleusa@gmail.com', 'abc.keith48@gmail.com']
     server = smtplib.SMTP('smtp.gmail.com',587) #port 465 or 587
     server.ehlo()
     server.starttls()
