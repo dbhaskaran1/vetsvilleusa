@@ -1,4 +1,6 @@
 static/.DS_Store
 vetsvilleusa.pyc
-.idea/
+.idea/*
 .idea/workspace.xml
+.idea/vetsvilleusa.iml
+.idea/misc.xml
