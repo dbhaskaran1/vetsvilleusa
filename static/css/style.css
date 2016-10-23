@@ -286,6 +286,7 @@ img.img-circle.team-img {
 /* Services Section */
 #tf-services{
 	padding: 80px 0;
+	background: #F8E8D3;
 }
 
 .space{
@@ -311,6 +312,25 @@ img.img-circle.team-img {
 #tf-services .service:hover>i.fa{
 	background: #FCAC45;
 	color: #ffffff;
+}
+
+#tf-services a {
+    color: #000000;
+}
+
+#tf-services hr {
+    border-top: 1px solid #fcac45;
+    height: 10px;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Housing Section */
+#tf-housing{
+	padding: 80px 0;
+	background: #F8E8D3;
 }
 
 /* Clients Section */
