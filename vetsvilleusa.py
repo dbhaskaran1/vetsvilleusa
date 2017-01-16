@@ -8,8 +8,6 @@ MAIL_SERVER = 'smtp.gmail.com'
 MAIL_PORT = 587
 MAIL_USE_TLS = False
 MAIL_USE_SSL = True
-MAIL_USERNAME = 'vetsvilleusa@gmail.com'
-MAIL_PASSWORD = 'Decatur2015'
 
 @app.route("/", methods=['GET', 'POST'])
 @app.route("/index.html", methods=['GET', 'POST'])
@@ -40,7 +38,6 @@ def send_email(msg='msg', recipient='vetsvilleusa@gmail.com', sender='somesender
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('vetsvilleusa@gmail.com','Decatur2015')
     server.sendmail('vetsvilleusa@gmail.com',recipient,msg)
     server.close()
 
